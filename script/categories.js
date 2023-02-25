@@ -76,3 +76,4 @@ btn.onclick = event => {
   else if(element.value == "recommend")  
     window.location.href = 'recommend.html'
 };
+

@@ -459,4 +459,18 @@ body {
  margin: 25px 15px;
 }
 
+.btn-primary {
+  border: none;
+  outline: none;
+  background: none;
+  color: #f1f1f1;
+  text-decoration: underline;
+  opacity: 0.7;
+  display: flex;
+  justify-content: right;
+}
 
+.btn-primary:hover {
+  opacity: 0.5;
+  transition: all 0.2s;
+}
