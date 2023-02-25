@@ -5,6 +5,9 @@ for ( var i = 0; i < elms.length; i++ ) {
   new Splide( elms[ 0 ], {
         autoplay: 'true',
         type    : 'loop',
+        focus: "center",
+        perPage: 4,
+        perMove: 1,
         arrows  : false,
         pagination: false,
   } ).mount();

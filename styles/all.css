@@ -9,6 +9,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: 'PT Sans', sans-serif;
   position: relative;
@@ -17,10 +18,15 @@ body {
   overflow-x: hidden;
   max-height: 7000px;
   transition: 1s;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   background: #121212;
 
 }
+
+/* #wrapper {
+  width: 1280px;
+  margin: 0 auto;
+} */
 
 .navbar {
   width: 100%;
@@ -280,9 +286,9 @@ body {
 
 
 
-svg {
+.curve__top svg {
   opacity: 0.3;
-  z-index: 3;
+  z-index: -1;
   position: absolute;
 }
 
@@ -384,4 +390,15 @@ svg {
 .btn-cat:hover {
   background: #a8424f;
   transition: all 0.4s;
+}
+
+.film-container {
+  z-index: 1000;
+  position: relative;
+
+}
+
+.film-row-1 {
+  margin-top: 2%;
+  position: relative;
 }
