@@ -303,6 +303,27 @@ body {
 
 }
 
+.ads-popup {
+  position: fixed;
+  z-index: 400;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.ads-pop {
+grid-row: 2/2;
+}
+
+.ads-close {
+position: relative;
+background: none;
+border: none;
+color: #f1f1f1;
+justify-content: center;
+align-items: start;
+}
+
 .container-all {
   background-attachment: fixed;
   z-index: 1000;
@@ -431,7 +452,7 @@ body {
 }
 
 .splide__slide1.is-visible {
-  display: block;
+  display: inline-block;
 }
 
 .film-row-0 {
@@ -477,7 +498,7 @@ body {
   margin: 4% 6%;
 }
 
-.film-static li{
+.static-slide li{
  display: inline-block;
  margin: 25px 15px;
 }

@@ -55,3 +55,11 @@ $(document).ready(function(){
         $('.menu-btn').css("visibility", "visible");
       });
     });
+
+
+    const ads_popup = document.querySelector('#ads-pop');
+    const ads_close = document.querySelector('#ads-close-btn');
+    
+    ads_close.onclick = event => {
+      ads_popup.style.display = 'none';
+    }

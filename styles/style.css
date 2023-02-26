@@ -134,14 +134,26 @@ body {
 
 }
 
-/* .ads-popup {
+.ads-popup {
     position: fixed;
     z-index: 400;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-} */
+    grid-template-rows: 1fr 1fr;
+ 
+}
 
+.ads-pop {
+  grid-row: 2/2;
+}
 
+.ads-close {
+  position: relative;
+  background: none;
+  border: none;
+  color: #f1f1f1;
+  justify-content: center;
+  align-items: start;
+}
 
 .conatainer-banner {
   padding: 30px 30px;

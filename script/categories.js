@@ -89,4 +89,16 @@ showMore.addEventListener('click', () => {
     const visItems = array.slice(0, items);
 
     visItems.forEach(el => el.classList.add('is-visible')); 
+
+    if(visItems.length == listLength) {
+      showMore.style.display = 'none';
+    }
 });
+
+
+const ads_popup = document.querySelector('#ads-pop');
+const ads_close = document.querySelector('#ads-close-btn');
+
+ads_close.onclick = event => {
+  ads_popup.style.display = 'none';
+}
