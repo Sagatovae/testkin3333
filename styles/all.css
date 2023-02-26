@@ -411,6 +411,29 @@ body {
   border-radius: 15px;
 }
 
+
+.splide__slide1 img{
+  border-radius: 15px;
+}
+
+.splide__slide1:hover {
+  transform: scaleX(1.04);
+  transition: all 0.2s ease-out;
+}
+
+.splide__slide1:hover img{
+  border-radius: 15px;
+}
+
+
+.splide__slide1:nth-child(n + 11) {
+  display: none;
+}
+
+.splide__slide1.is-visible {
+  display: block;
+}
+
 .film-row-0 {
   margin: 4% 4%;
   max-width: 1920px;
@@ -450,7 +473,7 @@ body {
 
 .film-row-4 {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   margin: 4% 6%;
 }
 

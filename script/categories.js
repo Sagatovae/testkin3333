@@ -77,3 +77,16 @@ btn.onclick = event => {
     window.location.href = 'recommend.html'
 };
 
+
+
+const showMore = document.querySelector('.btn-primary');
+const listLength = document.querySelectorAll('.splide__slide1').length;
+let items = 10;
+
+showMore.addEventListener('click', () => {
+    items += 5;
+    const array = Array.from(document.querySelector('.static-slide').children);
+    const visItems = array.slice(0, items);
+
+    visItems.forEach(el => el.classList.add('is-visible')); 
+});
