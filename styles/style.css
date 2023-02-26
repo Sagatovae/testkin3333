@@ -296,6 +296,18 @@ body {
   border-radius: 15px;
 }
 
+.splide__slide img{
+  border-radius: 15px;
+}
+
+.splide__slide:hover {
+  transform: scaleX(1.04);
+  transition: all 0.2s ease-out;
+}
+
+.splide__slide:hover img{
+  border-radius: 15px;
+}
 
 
 .recommend-tag {
