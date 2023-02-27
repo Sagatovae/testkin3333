@@ -4,12 +4,19 @@ var elms = document.getElementsByClassName( 'splide' );
 
 for ( var i = 0; i < elms.length; i++ ) {
   new Splide( elms[ 0 ], {
+    autoplay: 'true',
+    type    : 'loop',
+    perPage: 1,
+    arrows  : false,
+    pagination: false,
+} ).mount();
+  new Splide( elms[ 1 ], {
         autoplay: 'true',
         type    : 'loop',
         arrows  : false,
         pagination: false,
   } ).mount();
-  new Splide( elms[ 1 ], {
+  new Splide( elms[ 2 ], {
         type   : 'loop',
         perPage: 3,
         perMove: 1,
@@ -18,13 +25,13 @@ for ( var i = 0; i < elms.length; i++ ) {
         autoplay: 'true',
         focus: "center",
   } ).mount();
-  new Splide( elms[ 2 ], {
+  new Splide( elms[ 3 ], {
         autoplay: 'true',
         type    : 'loop',
         arrows  : false,
         pagination: false,
 } ).mount();
-  new Splide( elms[ 3 ], {
+  new Splide( elms[ 4 ], {
         type   : 'loop',
         autoplay: 'true',
         perPage: 4,
