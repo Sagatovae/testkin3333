@@ -46,10 +46,10 @@
                               <div class="item">
                                 <a class="sub-btn"><i class="fas fa-table"></i>Categories<i class="fas fa-angle-right dropdown"></i></a>
                                 <div class="sub-menu">
-                                  <a href="#" class="sub-item">ALL</a>
-                                  <a href="#" class="sub-item">RECOMMEND</a>
-                                  <a href="#" class="sub-item">POPULAR</a>
-                                  <a href="#" class="sub-item">LATEST</a>
+                                  <a href="#c-all" class="sub-item">ALL</a>
+                                  <a href="#c-recommend" class="sub-item">RECOMMEND</a>
+                                  <a href="#c-popular" class="sub-item">POPULAR</a>
+                                  <a href="#c-latest" class="sub-item">LATEST</a>
                                 </div>
                               </div>
                               
@@ -117,7 +117,7 @@
     </div>
 
 
-    <div class="container-latest">
+    <div class="container-latest" id="c-latest">
        <!-- <div class="title-h3"><h3></h3>Последние вышедшие сериалы смотреть онлайн</div> -->
        <h3><p class="lastest-tag"><a href="latest.html" class="tag-general">LATEST</a></p></h3> 
 
@@ -134,16 +134,16 @@
                   </div>
             </div> 
             <div class="film-top">
-                <img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film1' alt=''/>
+                <a href="film.html" class="filmhref"><img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film1' alt=''/></a>
             </div>
             <div class="film-bottom">
-                <img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film2' alt=''/>
+                <a href="film.html" class="filmhref"><img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film2' alt=''/></a>
             </div>
         </div>
     </div>  
 
-    <div class="container-popular">    
-        <h3><p class="popular-tag"><a href="popular.html" class="tag-general">POPULAR</a></h3></p>
+    <div class="container-popular" id="c-popular">    
+        <h3><p class="popular-tag"><a href="popular.html" class="tag-general" >POPULAR</a></h3></p>
         
     <div class="popular-films">
         <div class="content-popular">
@@ -173,7 +173,7 @@
         </div>
     </div>
 
-    <div class="container-recommend">
+    <div class="container-recommend" id="c-recommend">
         <h3><p class="lastest-tag"><a href="recommend.html" class="tag-general">RECOMMEND</a></p></h3>
 
     <div class="recommend-films">
@@ -189,15 +189,15 @@
                   </div>
             </div> 
             <div class="film-top">
-                <img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film1' alt=''/>
+                <a href="film.html" class="filmhref"><img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film1' alt=''/></a>
             </div>
             <div class="film-bottom">
-                <img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film2' alt=''/>
+                <a href="film.html" class="filmhref"><img src='https://placehold.it/600x300/0D0D0D/ffffff?text=film2' alt=''/></a>
             </div>
         </div>
     </div>  
            
-    <div class="container-all">
+    <div class="container-all" id="c-all">
         <h3><p class="ALL-tag"><a href="all.html" class="tag-general">ALL</a></p></h3>
 
     <div class="content-all">
@@ -241,10 +241,10 @@
                 <div class="footer-categories">
                     <ul class="categories">
                         <li><span><h2>Film categories:</h2></span></li>
-                        <li><a href="#">LATEST</a></li>
-                        <li><a href="#">POPULAR</a></li>
-                        <li><a href="#">RECOMMEND</a></li>
-                        <li><a href="#">ALL</a></li>
+                        <li><a href="#c-latest">LATEST</a></li>
+                        <li><a href="#c-popular">POPULAR</a></li>
+                        <li><a href="#c-recommend">RECOMMEND</a></li>
+                        <li><a href="#c-all">ALL</a></li>
                     </ul>
                 </div>
         </div>
