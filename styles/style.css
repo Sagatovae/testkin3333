@@ -167,7 +167,7 @@ body {
   grid-column: 2/3;
   z-index: 50;
   /* position: absolute; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   max-width: 1920px;
   padding: 4%;
 
@@ -183,8 +183,16 @@ body {
 
 
 .container-navigation {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+
+  
 }
 
 .navigation-menu {
@@ -192,16 +200,16 @@ body {
   padding-left: 0;
   margin-bottom: 40px;
   font-weight: 400;
-  grid-column: 2/3;
-  grid-row: 1;
 
+  display: inline-block;
+  margin: 0px 1%;
 }
 
 
 
 .navigation-menu li {
   display: inline-block;
-  margin: 0px 1%;
+  /* margin: 0px 1%; */
 
 }
 
@@ -244,7 +252,10 @@ body {
   height: 50px;
   border-radius: 5px;
   color: #ffffff;
-  padding: 7px 90vh;
+  /* padding: 7px 90vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 700;
 }
@@ -254,7 +265,6 @@ body {
   grid-template-columns: 55% 45%;
   margin-top: 50px;
   margin-left: 5%;
-
 }
 
 .content-latest {
@@ -276,7 +286,9 @@ body {
   height: 50px;
   border-radius: 5px;
   color: #ffffff;
-  padding: 7px 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 700;
   margin-top: 50px;
@@ -364,7 +376,9 @@ body {
   height: 50px;
   border-radius: 5px;
   color: #ffffff;
-  padding: 7px 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 700;
   margin-top: 50px;

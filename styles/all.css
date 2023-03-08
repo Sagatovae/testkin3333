@@ -465,13 +465,6 @@ align-items: start;
   position: relative;
 }
 
-
-.film-row-2 {
-
-  max-width: 1820px;
-  margin: 4% auto;
-}
-
 .container-ads {
   padding: 2z0px 30px;
   display: grid;
@@ -480,6 +473,7 @@ align-items: start;
 }
 
 .ads {
+  margin-top: 4%;
   grid-column: 2/3;
 }
 
@@ -487,10 +481,6 @@ align-items: start;
   border-radius: 15px;
 }
 
-.film-row-3 {
-  max-width: 1920px;
-  margin: 4% 6%;
-}
 
 .film-row-4 {
   display: grid;

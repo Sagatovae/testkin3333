@@ -18,24 +18,6 @@ for ( var i = 0; i < elms.length; i++ ) {
         arrows  : false,
         pagination: false,
   } ).mount();
-  new Splide( elms[ 2 ], {
-    type   : 'loop',
-    perPage: 5,
-    perMove: 1,
-    arrows  : false,
-    pagination: false,
-    autoplay: 'true',
-    focus: "center",
-  } ).mount()
-  new Splide( elms[ 3 ], {
-    type   : 'loop',
-    perPage: 3,
-    perMove: 1,
-    arrows  : false,
-    pagination: false,
-    autoplay: 'false',
-    focus: "center",
-  } ).mount()
 }
 
 
