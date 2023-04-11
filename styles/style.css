@@ -38,6 +38,10 @@ body {
 
 }
 
+.container-bar {
+  /* position: fixed; */
+}
+
 .navbar .container-bar {
   height: inherit;
   display: flex;

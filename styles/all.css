@@ -141,7 +141,7 @@ body {
 .side-bar.active {
   position: absolute;
   left: -200;
-  z-index: 1000;
+  z-index: 2000;
   opacity: 1;
   border-radius: 10px 10px 10px 10px;
 }
