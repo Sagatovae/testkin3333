@@ -1,0 +1,488 @@
+@media only screen and (max-width: 1600px) {
+    
+    .conatainer-banner img {
+        width: 1470px;
+        height: 416px;
+    }
+
+
+
+    .banner {
+        padding: 3%;
+    }
+
+    .tag-general {
+        font-size: 24px;
+    }
+
+    .lastest-tag {
+        height: 50px;
+    }
+
+    .popular-tag {
+        height: 50px;
+    }
+
+    .recommend-tag {
+        height: 50px;
+    }
+
+    .ALL-tag {
+        height: 50px;
+    }
+
+    .content-latest img {
+        width: 750px;
+        height: 500px;
+    }
+
+ 
+
+    .content-recommend img {
+        width: 750px;
+        height: 500px;
+    }
+
+    
+
+    .film-top img{
+        max-width: 500px;
+        max-height: 250px;
+    }
+    .film-bottom img{
+        max-width: 500px;
+        max-height: 250px;
+    }
+
+    .content-popular img {
+        width: 291px;
+        height: 500px;
+    }
+
+    .ads img {
+        width: 1470px;
+    }
+
+    .content-all img {
+        width: 333px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .conatainer-banner img {
+        width: 1103px;
+        height: 312px;
+    }
+
+     .navigation-menu li a{
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+
+    .banner {
+        padding: 3%;
+    }
+
+    .tag-general {
+        font-size: 22px;
+    }
+
+    .lastest-tag {
+        height: 40px;
+    }
+
+    .popular-tag {
+        height: 45px;
+    }
+
+    .recommend-tag {
+        height: 45px;
+    }
+
+    .ALL-tag {
+        height: 45px;
+    }
+
+    .content-latest img {
+        width: 562px;
+        height: 375px;
+    }
+
+ 
+
+    .content-recommend img {
+        width: 562px;
+        height: 375px;
+    }
+
+    
+
+    .film-top img{
+        max-width: 375px;
+        max-height: 187px;
+    }
+    .film-bottom img{
+        max-width: 375px;
+        max-height: 187px;
+    }
+
+    .content-popular img {
+        width: 218px;
+        height: 375px;
+    }
+
+    .ads img {
+        width: 1100px;
+    }
+
+    .content-all img {
+        width: 250px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 993px) {
+
+.conatainer-banner img {
+        width: 928px;
+        height: 263px;
+    }
+
+     .navigation-menu li a{
+        margin-top: 7px;
+        padding: 8px 20px;
+    }
+
+
+    .banner {
+        padding: 2%;
+    }
+
+    .tag-general {
+        font-size: 22px;
+    }
+
+    .lastest-tag {
+        height: 40px;
+    }
+
+    .popular-tag {
+        height: 45px;
+    }
+
+    .recommend-tag {
+        height: 45px;
+    }
+
+    .ALL-tag {
+        height: 45px;
+    }
+
+    .content-latest img {
+        width: 473px;
+        height: 315px;
+    }
+
+ 
+
+    .content-recommend img {
+        width: 473px;
+        height: 315px;
+    }
+
+    
+
+    .film-top img{
+        max-width: 315px;
+        max-height: 157px;
+    }
+    .film-bottom img{
+        max-width: 315px;
+        max-height: 157px;
+    }
+
+    .content-popular img {
+        width: 184px;
+        height: 315px;
+    }
+
+    .ads img {
+        width: 900px;
+    }
+
+    .content-all img {
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .conatainer-banner img {
+        width: 706px;
+        height: 200px;
+    }
+
+    .navbar-menu li a {
+        margin-right: 20px;
+      }
+
+
+    .banner {
+        padding: 2%;
+    }
+
+    .tag-general {
+        font-size: 22px;
+    }
+
+    .lastest-tag {
+        height: 40px;
+    }
+
+    .popular-tag {
+        height: 45px;
+    }
+
+    .recommend-tag {
+        height: 45px;
+    }
+
+    .ALL-tag {
+        height: 40px;
+    }
+
+    .content-latest img {
+        width: 360px;
+        height: 240px;
+    }
+
+ 
+
+    .content-recommend img {
+        width: 360px;
+        height: 240px;
+    }
+
+    
+
+    .film-top img{
+        max-width: 240px;
+        max-height: 120px;
+    }
+    .film-bottom img{
+        max-width: 240px;
+        max-height: 120px;
+    }
+
+    .content-popular img {
+        width: 140px;
+        height: 240px;
+    }
+
+    .ads img {
+        width: 706px;
+    }
+
+    .content-all img {
+        width: 160px;
+    }
+
+    .navbar-brand {
+        font-weight: 400;
+        font-size: 22px;
+        text-decoration: none;
+        display: flex;
+        color: rgb(252, 235, 235); 
+        font-family: Rowdies;
+        margin-top: -10px;
+        transition: all .09s ease-in-out;
+        text-align: center;
+        justify-content: center;
+      }
+
+    .navbar-brand {
+        height: 70px;
+        width: 145px;
+      }
+      
+    .search-box input {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: #fff;
+        font-size: 20px;
+        line-height: 40px;
+        width: 0px;
+        transition: all 0.8s;
+        opacity: 1;
+      
+      }
+      
+      .search-box:hover input {
+        width: 180px;
+        padding: 0px 6px;
+      
+      
+      }
+      
+      .search-box input:focus {
+        width: 180px;
+        padding: 0px 6px;
+      
+      }
+      
+      .search-btn {
+        border: none;
+        background: none;
+        outline: none;
+        width: 30px;
+        margin-top: -21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      
+      }
+}
+
+@media only screen and (max-width: 576px) {
+    .conatainer-banner img {
+        width: 534px;
+        height: 151px;
+    }
+    .navigation-menu li a{
+        margin-top: 5px;
+        /* padding: 8px 13px; */
+    }
+
+
+    .banner {
+        padding: 2%;
+    }
+    .navbar-menu li a {
+        margin-right: 5px;
+      }
+
+    .tag-general {
+        font-size: 22px;
+    }
+
+    .lastest-tag {
+        height: 40px;
+    }
+
+    .popular-tag {
+        height: 45px;
+    }
+
+    .recommend-tag {
+        height: 45px;
+    }
+
+    .ALL-tag {
+        height: 40px;
+    }
+
+    .content-latest img {
+        width: 272px;
+        height: 181px;
+    }
+
+ 
+
+    .content-recommend img {
+        width: 272px;
+        height: 181px;
+    }
+
+    
+
+    .film-top img{
+        max-width: 181px;
+        max-height: 90px;
+    }
+    .film-bottom img{
+        max-width: 181px;
+        max-height: 90px;
+    }
+
+    .content-popular img {
+        width: 106px;
+        height: 181px;
+    }
+
+    .ads img {
+        width: 534px;
+    }
+
+    .content-all img {
+        width: 121px;
+    }
+
+    .navbar-brand {
+        font-weight: 400;
+        font-size: 22px;
+        text-decoration: none;
+        display: flex;
+        color: rgb(252, 235, 235); 
+        font-family: Rowdies;
+        margin-top: -10px;
+        transition: all .09s ease-in-out;
+        text-align: center;
+        justify-content: center;
+      }
+
+    .navbar-brand {
+        height: 70px;
+        width: 145px;
+      }
+      
+    .search-box input {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: #fff;
+        font-size: 20px;
+        line-height: 40px;
+        width: 0px;
+        transition: all 0.8s;
+        opacity: 1;
+      
+      }
+      
+      .search-box:hover input {
+        width: 180px;
+        padding: 0px 6px;
+      
+      
+      }
+      
+      .search-box input:focus {
+        width: 180px;
+        padding: 0px 6px;
+      
+      }
+      
+      .search-btn {
+        border: none;
+        background: none;
+        outline: none;
+        width: 30px;
+        margin-top: -21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      
+      }
+}
